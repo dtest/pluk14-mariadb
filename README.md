@@ -18,3 +18,15 @@ The requirements for running this vagrantfile are:
   cd pluk14-mariadb
   vagrant up
 ```
+
+----
+
+## Usage
+
+The Vagrantfile sets up a single box with 2GB memory. There will be 4 mariadb instances running, but the memory limit can be modified if required.
+
+```
+  cd /path/to/pluk14-mariadb
+  vagrant up
+  vagrant ssh
+```
