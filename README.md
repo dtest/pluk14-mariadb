@@ -13,8 +13,10 @@ The requirements for running this vagrantfile are:
 
 ## Installation
 
+Download via git command; or download compressed file and cd to correct directory
+
 ```
-  git clone git@github.com:dtest/pluk14-mariadb.git
+  git clone https://github.com/dtest/pluk14-mariadb
   cd pluk14-mariadb
   vagrant up
 ```
