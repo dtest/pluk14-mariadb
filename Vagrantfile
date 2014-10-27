@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   config.vm.define :pluk do |pluk14_config|
 
     pluk14_config.vm.provider :virtualbox do |pluk_vb|
-      pluk_vb.customize ["modifyvm", :id, "--name", "pluk14_test"]
+      pluk_vb.customize ["modifyvm", :id, "--name", "pluk14_mariadb"]
       pluk_vb.customize ["modifyvm", :id, "--memory", 2048]
     end
 
