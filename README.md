@@ -25,7 +25,7 @@ Download via git command; or download compressed file and cd to correct director
 
 ## Usage
 
-The Vagrantfile sets up a single box with 2GB memory. There will be 4 mariadb instances running, but the memory limit can be modified if required.
+The Vagrantfile sets up a single box with 1GB memory. There will be 4 mariadb instances running, but the memory limit can be modified if required.
 
 ```
   cd /path/to/pluk14-mariadb
